@@ -38,14 +38,13 @@ public class Book {
 
     @Override
     public String toString() {
-        return title + " by" + author + " ISBN:" + isbn;
+        return title + " by " + author + " ISBN: " + isbn;
+
     }
-
-
 
     public boolean equals(Object object) {
         if (this == object) {
-            return false;
+            return true;
         }
         if (object == null || getClass() != object.getClass()) {
             return false;
