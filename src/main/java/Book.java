@@ -1,3 +1,4 @@
+import javax.swing.text.Utilities;
 import java.time.LocalDate;
 
 
@@ -42,6 +43,7 @@ public class Book {
 
     }
 
+    @Override
     public boolean equals(Object object) {
         if (this == object) {
             return true;
@@ -76,6 +78,7 @@ public class Book {
     }
 
 
+    @Override
     public int hashCode() {
         int result = getISBN() != null ? getISBN().hashCode() : 0;
         result = 31 * result + (getTitle() != null ? getTitle().hashCode() : 0);
