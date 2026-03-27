@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+
+/**
+ * @author Justin Tzeng
+ * its like a libray where user can check out books and it collects a list of books
+ * they have checked out, allowing books to be added, removed, and checked
+ *
+ */
+
 public class Reader {
     public static final int cardNumber_ = 0;
     public static final int NAME_ = 1;
