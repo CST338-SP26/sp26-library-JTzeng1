@@ -3,7 +3,7 @@ import java.time.LocalDate;
 
 /**
  * This is the main 'driver' it is used to run the files and get the output seen in the prompt.
- * @author Drew "Dr.C" Clinkenbeard
+ * @author Justin Tzeng
  */
 public class Main {
     public static void main(String[] args) {
