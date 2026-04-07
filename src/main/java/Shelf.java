@@ -3,6 +3,11 @@ import Utilities.Code;
 import java.util.HashMap;
 import java.util.Objects;
 
+/** Author: Justin
+ * Abstract: This program creates a library
+ * that stores books by subject and tracks their there are using a HashMap.
+ *
+ */
 public class Shelf {
     public static final int SHELF_NUMBER_ =0;
     public static final int SUBJECT_ = 1;
